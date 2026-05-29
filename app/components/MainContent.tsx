@@ -267,7 +267,7 @@ const WeddingScreen = ({ name }: WeddingScreenProps) => {
                   className={`text-xl md:text-5xl  text-white font-ovo fadeInMove ${isSlide4InView ? " active" : ""
                     }`}
                 >
-                  A journey in love
+                  Our Wedding Events
                 </h1>
                 <h3
                   ref={slide4Ref}
@@ -352,7 +352,7 @@ const WeddingScreen = ({ name }: WeddingScreenProps) => {
                 {config.holyMatrimony.enabled && (
                   <div className="mt-5 mx-auto flex flex-col items-center">
                     <h3 className="uppercase font-ovo text-sm text-center mt-5 mb-2">
-                      Holy Matrimony <br /> {config.holyMatrimony.time}
+                      Haldi Rasm  <br /> {config.holyMatrimony.time}
                     </h3>
                     <p className="text-sm text-center  font-legan text-white">
                       {config.holyMatrimony.place} <br /> {config.holyMatrimony.place_details}
@@ -370,7 +370,7 @@ const WeddingScreen = ({ name }: WeddingScreenProps) => {
                 {config.weddingReception.enabled && (
                   <div className="mt-5 mx-auto flex  flex-col items-center">
                     <h3 className="uppercase font-ovo text-sm text-center mt-5 mb-2">
-                      Wedding Reception <br /> {config.weddingReception.time}
+                      Barat Prasthan <br /> {config.weddingReception.time}
                     </h3>
                     <p className="text-sm text-center  font-legan text-white">
                       {config.weddingReception.place} <br /> {config.weddingReception.place_details}
@@ -516,25 +516,7 @@ const WeddingScreen = ({ name }: WeddingScreenProps) => {
             </div>
             )}
 
-            {/* SLIDE 10 */}
-            <div
-              className="snap-start text-white h-screen flex flex-col justify-center pt-16 pb-16 px-8"
-              style={{
-                backgroundImage: `url(/slide_9.jpg)`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            >
-              <div
-                ref={slide10Ref}
-                className={`${isSlide10InView ? "active" : ""} fadeInMove`}
-              >
-                <h1 className="text-3xl text-white font-ovo text-center uppercase">
-                  Wishes
-                </h1>
-                <WishesList />
-              </div>
-            </div>
+            
 
             {/* SLIDE AKHIR */}
             <div
@@ -565,9 +547,9 @@ const WeddingScreen = ({ name }: WeddingScreenProps) => {
 
               <footer className="flex flex-col items-center mt-8">
                 <p className="text-[0.5rem] uppercase text-center">
-                  Created By Peter Shaan
+                  Created By Mohit Sankhala
                 </p>
-                <p className="text-xs">© All rights reserved by petershaan</p>
+                <p className="text-xs">© All rights reserved by Mohit Sankhala</p>
               </footer>
             </div>
           </>
