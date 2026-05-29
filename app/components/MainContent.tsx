@@ -7,7 +7,6 @@ import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import CountdownTimer from "./Countdown";
 import Form from "./Form";
-import WishesList from "./WishesList";
 import { config } from "@/lib/config";
 
 type WeddingScreenProps = {
@@ -72,9 +71,6 @@ const WeddingScreen = ({ name }: WeddingScreenProps) => {
     threshold: 0.5,
   });
   const { ref: slide9Ref, inView: isSlide9InView } = useInView({
-    threshold: 0.5,
-  });
-  const { ref: slide10Ref, inView: isSlide10InView } = useInView({
     threshold: 0.5,
   });
   const { ref: endRef, inView: isEndInView } = useInView({
