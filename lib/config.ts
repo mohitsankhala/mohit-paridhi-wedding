@@ -1,5 +1,5 @@
 export const config = {
-    coupleNames: process.env.NEXT_PUBLIC_COUPLE_NAMES || "Mohit & Paridhi",
+    coupleNames: process.env.NEXT_PUBLIC_COUPLE_NAMES || "Paridhi & Mohit",
     eventDate: process.env.NEXT_PUBLIC_EVENT_DATE || "2026-07-03T00:00:00",
     groom: process.env.NEXT_PUBLIC_GROOM_NAME || "Mohit",
     groomNickName: process.env.NEXT_PUBLIC_GROOM_NICKNAME || "Mohit",
